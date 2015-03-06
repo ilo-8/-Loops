@@ -1,0 +1,30 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Plyce Enter n and k nubers (1<k<n<100)");
+		int n = int.Parse(Console.ReadLine());
+		int k = int.Parse(Console.ReadLine());
+		BigInteger faktorialn = 1;
+		BigInteger faktorialk = 1;
+		BigInteger faktorialnk = 1;
+		BigInteger sum ;
+		for	(long i = 1 ; i <= n ; i++ )
+		{ 
+		  faktorialn *=i;
+		}
+		for (long i = 1 ;i<= k;i++)
+    {
+      faktorialk *= i;				
+		}		
+		for (long j = 1; j<=(n-k);j++)
+		{
+			faktorialnk *= j;
+		}
+		sum = (faktorialn)/(faktorialk*faktorialnk);
+		Console.WriteLine("Sum={0}",sum);
+	}
+}
+	
