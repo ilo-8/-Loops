@@ -4,7 +4,7 @@ public class Program
 {
 	public static void Main()
 	{
-		Console.Write("Plyce Enter n and k nubers (1<k<n<100)");
+		Console.Write("Please Enter n and k nubers (1<k<n<100)");
 		int n = int.Parse(Console.ReadLine());
 		int k = int.Parse(Console.ReadLine());
 		int faktorialn = 1;
