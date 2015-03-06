@@ -1,0 +1,21 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double n = double.Parse(Console.ReadLine());
+		double x = double.Parse(Console.ReadLine());
+		double sum = 1;
+		int fakturial = 1;
+		double a = 1;
+		for	(int i = 1; i <= n ; i++)
+		{
+			fakturial*=i;
+			a *= x;
+			sum += (fakturial/a);
+		}
+		Console.WriteLine("S={0:F5}",sum);
+	}
+}
+	
