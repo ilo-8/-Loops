@@ -5,7 +5,7 @@ public class Program
 {
 	public static void Main()
 	{
-		Console.WriteLine("Plyce Enter n nuber (1<n<100)");
+		Console.WriteLine("Please Enter n nuber (1<n<100)");
 		int n = int.Parse(Console.ReadLine());
 		BigInteger faktorial2n = 1;
 		BigInteger faktorialn1 = 1;
